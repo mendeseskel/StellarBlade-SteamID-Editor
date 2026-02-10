@@ -1,0 +1,8 @@
+# requirements.txt
+# Python dependencies for development
+
+# For building executable
+pyinstaller>=5.0
+
+# For icon creation (optional)
+pillow>=9.0.0
