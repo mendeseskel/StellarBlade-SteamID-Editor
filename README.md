@@ -35,24 +35,6 @@ account_steamid=7656119xxxxxxxxxx
 3. Click "Browse" → select `StellarBladeSave00.sav`
 4. Click "Replace SteamID & Rename Folder"
 5. Done!
-
-## 🔧 Building from Source
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Build executable
-pyinstaller --onefile --windowed --icon=icon.ico --name=StellarBladeSteamIDEditor stellar_blade_editor.py
-```
-
-## 📁 File Structure
-```
-StellarBlade-SteamID-Editor/
-├── stellar_blade_editor.py      # Main application
-├── requirements.txt              # Dependencies
-├── README.md                     # This file
-├── LICENSE                       # MIT License
-└── icon.ico                      # Application icon
 ```
 
 ## ⚠️ Important Notes
